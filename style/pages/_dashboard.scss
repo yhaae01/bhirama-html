@@ -42,16 +42,16 @@
   .list-group-item {
     border: 0;
     font-size: 16px;
-    color: #c5c5c5;
+    color: #3a3845;
 
     &.active {
       background: linear-gradient(
         270deg,
-        rgba(255, 113, 88, 0.32) 2%,
+        rgb(110, 117, 130) 2%,
         rgba(255, 255, 255, 0) 100%
       );
-      border-right: 4px solid #ff7158;
-      color: #0c0d36;
+      border-right: 4px solid #143f6b;
+      color: #3a3845;
     }
   }
 

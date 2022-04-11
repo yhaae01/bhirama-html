@@ -11079,7 +11079,7 @@ footer p {
 .card .dashboard-card-title {
   font-weight: 16px;
   line-height: 24px;
-  color: #c5c5c5;
+  color: #3a3845;
 }
 
 .card .dashboard-card-subtitle {
@@ -11089,14 +11089,16 @@ footer p {
   color: #0c0d36;
 }
 
-.card-list {
-  margin-bottom: 10px;
+.card .dashboard-card-title {
+  font-weight: 16px;
+  line-height: 24px;
+  color: #3a3845;
 }
 
-.card-list .card-body {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 40px;
+.card .dashboard-card-subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
   color: #0c0d36;
 }
 
@@ -11106,14 +11108,14 @@ footer p {
 
 .card-dashboard-product .card-body .product-title {
   font-weight: normal;
-  font-size: 18px;
-  color: #0c0d36;
+  font-size: 25px;
+  color: #3a3845;
 }
 
 .card-dashboard-product .card-body .product-category {
   font-weight: normal;
   font-size: 16px;
-  color: #c5c5cc;
+  color: silver;
 }
 
 .slide-fade-enter-active {

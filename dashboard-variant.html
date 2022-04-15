@@ -9,10 +9,11 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Bhirama Inventory - Dashboard</title>
+    <title>Bhirama Inventory - Variant</title>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="style/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" />
   </head>
 
   <body>
@@ -26,7 +27,7 @@
           <div class="list-group list-group-flush">
             <a
               href="/dashboard.html"
-              class="list-group-item list-group-item-action active"
+              class="list-group-item list-group-item-action"
               >Dashboard</a
             >
             <a
@@ -41,7 +42,7 @@
             >
             <a
               href="/dashboard-variant.html"
-              class="list-group-item list-group-item-action"
+              class="list-group-item list-group-item-action active"
               >Variant</a
             >
           </div>
@@ -117,41 +118,72 @@
           >
             <div class="container">
               <div class="dashboard-heading">
-                <h2 class="dashboard-title">Dashboard</h2>
-                <p class="dashboard-subtitle mb-4">Selamat Datang!</p>
+                <h2 class="dashboard-title">Variant</h2>
+                <p class="dashboard-subtitle">Daftar Variant</p>
               </div>
               <div class="dashboard-content">
-                <!-- Card -->
                 <div class="row">
-                  <div class="col-md-4">
-                    <div class="card mb-2">
+                  <div class="col-lg-6 col-sm-12">
+                    <a
+                      href="/dashboard-variant-create.html"
+                      class="btn btn-success my-3"
+                      ><i class="fa-solid fa-plus"></i> Tambah Warna</a
+                    >
+                    <div class="card">
                       <div class="card-body">
-                        <div class="dashboard-card-title">Produk</div>
-                        <div class="dashboard-card-subtitle">100</div>
+                        <table class="table table-hover">
+                          <tr>
+                            <th>No</th>
+                            <th>Warna</th>
+                            <th>Aksi</th>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>Merah</td>
+                            <td>
+                              <a href="#" class="btn btn-danger btn-sm"
+                                ><i class="fa-solid fa-trash"></i
+                              ></a>
+                              <a href="#" class="btn btn-warning btn-sm"
+                                ><i class="fa-solid fa-pen-to-square"></i
+                              ></a>
+                            </td>
+                          </tr>
+                        </table>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
-                    <div class="card mb-2">
+                  <div class="col-lg-6 col-sm-12">
+                    <a
+                      href="/dashboard-variant-create.html"
+                      class="btn btn-success my-3"
+                      ><i class="fa-solid fa-plus"></i> Tambah Ukuran</a
+                    >
+                    <div class="card">
                       <div class="card-body">
-                        <div class="dashboard-card-title">Pendapatan</div>
-                        <div class="dashboard-card-subtitle">Rp.100.000</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card mb-2">
-                      <div class="card-body">
-                        <div class="dashboard-card-title">Transaksi</div>
-                        <div class="dashboard-card-subtitle">1</div>
+                        <table class="table table-hover">
+                          <tr>
+                            <th>No</th>
+                            <th>Ukuran</th>
+                            <th>Aksi</th>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>XL</td>
+                            <td>
+                              <a href="#" class="btn btn-danger btn-sm"
+                                ><i class="fa-solid fa-trash"></i
+                              ></a>
+                              <a href="#" class="btn btn-warning btn-sm"
+                                ><i class="fa-solid fa-pen-to-square"></i
+                              ></a>
+                            </td>
+                          </tr>
+                        </table>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <!-- Row 2 -->
-
-                <!-- End Row 2 -->
               </div>
             </div>
           </div>
